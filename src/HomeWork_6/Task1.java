@@ -11,10 +11,10 @@ public class Task1 {
         // Замените каждый элемент с нечётным индексом на ноль.
         // Выведите полученный массив в консоль через цикл for each
 
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] array = new int[10];;
 
-        for (int numbers : array) {
-            System.out.print(numbers + " ");
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
         }
 
         System.out.println();
