@@ -17,6 +17,10 @@ public class Task1 {
             array[i] = i + 1;
         }
 
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+
         System.out.println();
 
         for (int i = 0; i < array.length; i++) {
